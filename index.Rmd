@@ -1,0 +1,21 @@
+--- 
+title: "A Minimal Book Example"
+author: "Morten Arendt Vils Rasmussen"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# About
+
+This webpage is pratical data analysis guide connected to the book 
+_Biostatistik og epidemiologi - En introduktion_ (FADL forlag - 2020). 
+
+The website encloses all data used in the book as well as R-code for how to do individual data analysis tasks. 
+

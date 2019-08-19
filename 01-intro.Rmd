@@ -1,0 +1,22 @@
+# Descriptive Statistics {#desc_stat}
+
+## The center of the distribution {#center}
+
+The center of a distribution of data can be represented by the mean value or the median....
+
+
+```{r}
+x <- rnorm(10)
+mean(x)
+median(x)
+```
+
+## The spread of the distribution {#variance}
+
+The variantion, that is how far _on average_ are the individual observations from the center of the distribution can be represented as the standard deviation or the inter quartile range. 
+
+```{r}
+sd(x)
+IQR(x)
+```
+
